@@ -2,10 +2,14 @@
 
 Currently, the state-of-art AI contributions have been putting into production by platforms that provides a prompt to interact with the Tools and a API based on web standards, such as, http and json.
 
+Such models are called foundation models: basic models that can be used to develop other models.
+
 ## Index for AI platforms
 https://easywithai.com/
 
-## Conversational AI
+## domains for foundation models
+
+### Conversational AI
 
 Platforms that generalizr NLP operations by the means of a one Large Language Model (LLM)
 Ex:
@@ -13,7 +17,8 @@ Ex:
 * chatgpt - openAI microsoft
 * llama - Meta
 * bard - google
-## Generative AI
+
+### Generative AI
 
 Platforms that generate images, audio, video, texts from any Media
 
@@ -21,19 +26,19 @@ Ex:
 * Stability.ai
 * Stable diffusion
 
-## Computer Vision
+### Computer Vision
 
 Enhanced typical computer vision operations
 
-## Metaverse and AI
+### Metaverse and AI
 
 
-# opensource tools
+## opensource tools
 
-## langchain
+### langchain
 
 Tool to create a local platform with prompt that performs conversational AI based on trained models or on plataforms such as chatGPT
 
-## stable diffusion
+### stable diffusion
 
 tool for generative AI
