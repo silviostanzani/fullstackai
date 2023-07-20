@@ -17,6 +17,10 @@ Ex:
 
 Platforms that generate images, audio, video, texts from any Media
 
+Ex:
+* Stability.ai
+* Stable diffusion
+
 ## Computer Vision
 
 Enhanced typical computer vision operations
@@ -29,3 +33,7 @@ Enhanced typical computer vision operations
 ## langchain
 
 Tool to create a local platform with prompt that performs conversational AI based on trained models or on plataforms such as chatGPT
+
+## stable diffusion
+
+tool for generative AI
