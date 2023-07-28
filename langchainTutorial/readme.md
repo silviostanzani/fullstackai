@@ -66,6 +66,9 @@ def factory():
 ```
 
 #### start server
+
+##### -w means that application reloads when source code changes
+
 ```
 chainlit run app.py -w
 ```
