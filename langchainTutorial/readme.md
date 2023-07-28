@@ -14,6 +14,13 @@ chainlit hello
 ```
 
 ## simple prompt
+
+### Steps to create simple prompt
+
+#### choose llm model
+#### define prompt format
+#### start server
+
 ```
 chainlit run app.py -w
 ```
