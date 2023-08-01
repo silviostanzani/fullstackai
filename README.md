@@ -39,6 +39,10 @@ Enhanced typical computer vision operations
 
 Tool to create a local platform with prompt that performs conversational AI based on trained models or on plataforms such as chatGPT
 
+### chainlit
+
+### transformers
+
 ### stable diffusion
 
 tool for generative AI
