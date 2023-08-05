@@ -10,15 +10,15 @@ https://easywithai.com/
 ### Conversational AI
 
 Platforms that generalizr NLP operations by the means of a one Large Language Model (LLM)
-Ex:
 
+Ex:
 * chatgpt - openAI microsoft
 * llama - Meta
 * bard - google
 
 ### Generative AI
 
-Platforms that generate images, audio, video, texts from any Media
+Platforms that generate images, audio, video, texts from any Media (on no media)
 
 Ex:
 * Stability.ai
@@ -28,19 +28,15 @@ Ex:
 
 Enhanced typical computer vision operations
 
-### Metaverse and AI
+Ex:
+* florence - https://www.microsoft.com/en-us/research/project/project-florence-vl/
+* Meta AI Segment anything - https://segment-anything.com/
 
+### Metaverse and Web 3.0
 
 ## opensource tools
 
-### langchain
-
-Tool to create a local platform with prompt that performs conversational AI based on trained models or on plataforms such as chatGPT
-
-### chainlit
-
-### transformers
-
-### stable diffusion
-
-tool for generative AI
+* Langchain
+* Chainlit
+* Transformers
+* Stable diffusion
