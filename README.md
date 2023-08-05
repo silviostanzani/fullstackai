@@ -2,7 +2,7 @@
 
 Currently, the state-of-art AI contributions have been putting into production by platforms that provides a prompt to interact with the Tools and a API based on web standards, such as, http and json.
 
-Such models are called foundation models: basic models that can be used to develop other models.
+Such models are called foundation models: basic models that provides generalist AI functionalities
 
 ## Index for AI platforms
 https://easywithai.com/
