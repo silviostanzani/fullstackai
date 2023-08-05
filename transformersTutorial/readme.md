@@ -1,8 +1,7 @@
 # Transformers Tutorial
 
-https://huggingface.co/docs/transformers/index
-
-## Transformers provides APIs and tools to easily download and train state-of-the-art pretrained models
+* https://huggingface.co/docs/transformers/index
+* Transformers provides APIs and tools to easily download and train state-of-the-art pretrained models
 
 ## NLP, Computer Vision , Audio, multi-modal
 
