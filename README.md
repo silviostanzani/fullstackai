@@ -1,4 +1,4 @@
-# fullstackai
+# Full Stack AI
 
 Currently, the state-of-art AI contributions have been putting into production by platforms provides that generalist AI functionalities called (Foundation models) which provides a prompt to interact with the Tools and a API based on web standards.
  
