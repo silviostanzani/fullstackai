@@ -5,7 +5,7 @@ Currently, the state-of-art AI contributions have been putting into production b
 ## Index for AI platforms
 https://easywithai.com/
 
-## domains for foundation models
+## Foundation Models Domains
 
 ### Conversational AI
 
