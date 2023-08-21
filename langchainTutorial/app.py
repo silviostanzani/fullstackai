@@ -28,6 +28,9 @@ falcon_chain = LLMChain(llm=falcon_llm,
                         
 print(falcon_chain.run("What are the colors in the Rainbow?"))
 
+print(falcon_chain.run("What is python?"))
+
+'''
 @cl.langchain_factory(use_async=False)
 
 def factory():
@@ -38,3 +41,27 @@ def factory():
                         verbose=True)
 
     return falcon_chain
+'''
+
+@cl.on_chat_start
+def main():
+    # Instantiate the chain for that user session
+    prompt = PromptTemplate(template=template, input_variables=["question"])
+    llm_chain = LLMChain(prompt=prompt, llm=falcon_llm, verbose=True)
+
+    # Store the chain in the user session
+    cl.user_session.set("llm_chain", llm_chain)
+
+
+@cl.on_message
+async def main(message: str):
+    # Retrieve the chain from the user session
+    llm_chain = cl.user_session.get("llm_chain")  # type: LLMChain
+
+    # Call the chain asynchronously
+    res = await llm_chain.acall(message, callbacks=[cl.AsyncLangchainCallbackHandler()])
+
+    # Do any post processing here
+
+    # Send the response
+    await cl.Message(content=res["text"]).send()
